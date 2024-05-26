@@ -1,0 +1,22 @@
+Project Goal: Emulating a travel booking platform by implementing various controls in Swagger. Ability to add/read/update/delete the 5 tables in the database.
+
+Running process:
+
+	->Modifying _windowsConnectionString in MyDbContext.cs with your own ConnectionString and connecting to the database.
+	->Running the "Update-Database" command in the Package Manager Console.
+	->Compile and run.
+
+Things implemented/fixed:
+
+Code refactoring:
+	->Implementation of services.
+	->Moving controller logic to BusinessLayer.
+	->Moving Dto objects to BusinessLayer.
+	->Using IRepository instead of MyDbContext for database access.
+	->Cleaning the controllers.
+	->Removing unnecessary libraries.
+	->Cleaning up the project structure.
+	->Implementation of the strategy model.
+	->Creating a fake Blazor WebAPI that displays a basic Hello World.
+	->Implement basic error handling and update logger to find errors/warnings in console and logs.
+	->Fix/disable all warnings.
